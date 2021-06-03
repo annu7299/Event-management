@@ -1,0 +1,123 @@
+<!Doctype html>
+
+<html>
+
+<head>
+
+    <title></title>
+    <style>
+        body
+        {
+            background-image: url("i21.jpg");
+        }
+#nav1
+{   margin-top: 0px;
+    background-color:rgb(10, 9, 9);
+    width:100%;
+    padding: 10px 30px;
+}  
+#nav1 a
+{    font-size: 1pc;
+    padding: 15px 30px;
+    line-height: 4pc;
+    text-decoration:none;
+    color:rgb(253, 250, 253);
+    
+}
+#nav1 a:hover{
+    text-decoration:none;
+color:olive;
+border-radius: 10px;
+}
+h2{
+    color:white;
+    text-align:center;
+    font-size: 2pc;
+}
+form{
+    color:white;
+    background-color: black;
+    margin:30px 500px 400px 500px;
+    border: 1px black solid;
+}
+
+#index{
+    background-color: black;
+    color: white;
+    margin-top: 0 ;
+    height: 2pc;
+    text-align: left;
+}
+</style>
+
+</head>
+
+ 
+
+<body>
+
+    <div id="index"><h1 align="left">EVENT PLANNER</h1></div>
+
+    <div id="nav1" align="right">
+        <a href="event1.html" ><b>HOME</a>|
+        <a href="about.html"><b>ABOUT US</a>|
+        <a href="contact.html" ><b>CONTACT US</a>|
+        <a href="venue.html">VENUE</a>|
+        <a href="gallery.html"><b>GALLERY</a>|
+        <a href="blog.html"><b>BLOG</a>|
+        <a href="registration.html"><b>REGISTRATION</a>|
+        </div><br>
+
+        <h2>
+            BOOKING DETAILS
+        </h2>
+        <div id="form1">
+        	
+	
+
+<form text="center" >
+  <label for="birthday">DATE FOR AN EVENT</label><br>
+  <input type="date" id="birthday" name="Event"  style="text-align: center";><br>
+  
+<br>
+TYPE OF EVENT:<br>
+<select name="TYPE OF EVENT" id="TYPE OF EVENT" style="text-align: center";>
+  <option value="volvo">Birthday</option>
+  <option value="saab">Wedding</option>
+  <option value="mercedes">Business</option>
+</select><br><br>
+  
+            
+            CUSTOMER NAME:<br>
+                <input type="text" id="name" placeholder="Name"><br><br>
+                NO. OF ATTENDEES:<br>
+                <input type="number" id="attendee" placeholder="Attendees"><br><br>
+                DETAILS/ADVICE<br>
+              
+                <textarea id="description" cols="20" rows="5" placeholder="Description..."></textarea>
+                <br>
+                
+               
+            
+        <br>
+        <label for="Price">PRICE FOR AN EVENT</label><br>
+
+<select name="cars" id="cars">
+  <option value="volvo">$1000-$2000</option>
+  <option value="saab">$2000-$3000</option>
+  <option value="mercedes">$3000-$4000</option>
+  <option value="audi">$4000-$5000</option>
+</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <button onclick="myFunction()" style="height:30px; width: 100px;">Save</button>
+ </form></div>
+
+<script>
+function myFunction() {
+  alert("Saved Succesfully!");
+}
+</script></div>
+
+
+        </body>
+        </html>
